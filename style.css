@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+header {
+    margin: 50px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 5px dotted black;
+}
+header img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 100px;
+}
+
+header span {
+    font-size: 50px;
+    display: flex;
+}
