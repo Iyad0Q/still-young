@@ -16,13 +16,29 @@
     </header>
 
     <main>
+
         <div class="description">
             <h2>من نحن؟ وماذا نقدم؟</h2>
             <p></p>
         </div>
+
         <br>
-        <div class="register">
-            <h2>للتسجيل في البرنامج</h2>
+
+        <div class="invite">
+            <p>إن كنت من الفئة المستهدفة وتريد الدخول في البرنامج 
+                أو تود أن تسجل أحد أقاربك من كبار السن
+            <a href="#" id="register1">اضغط هنا للتسجيل في البرنامج</a>
+            <br>
+            إن كنت تريد أن تكون متطوعاً وأن تساعدنا على إتمام البرنامج
+            <a href="#" id="register2">اضغط هنا للتسجيل كمتطوع</a>
+            </p>
+        </div>
+
+        <br>
+
+        <div class="coustmer-register">
+            <a href="#" id="close1" class="close">الرجوع للصفحة الرئيسية</a>
+            <h2>التسجيل في البرنامج</h2>
             <form>
                 <input type="text" placeholder="الاسم">
                 <br>
@@ -30,14 +46,17 @@
                 <br>
                 <input type="number" placeholder="العمر">
                 <br>
-                <input type="radio" name="kind" id="kind">ذكر<br>
-                <input type="radio" name="kind" id="kind">أنثى<br>
-                <input type="submit">
+                <input type="radio" class="chosse" name="kind"><p>ذكر</p>
+                <input type="radio" class="chosse" name="kind"><p>أنثى</p>
+                <input type="submit" class="submit" value="إرسال">
             </form>
         </div>
+
         <br>
+
         <div class="volunteer-register">
-            <h2>للتسجيل كمتطوع</h2>
+            <a href="#" id="close2" class="close">الرجوع للصفحة الرئيسية</a>
+            <h2>التطوع في البرنامج</h2>
             <form>
                 <input type="text" placeholder="الاسم">
                 <br>
@@ -45,20 +64,26 @@
                 <br>
                 <input type="number" placeholder="العمر">
                 <br>
-                <input type="radio" name="kind" id="kind">ذكر<br>
-                <input type="radio" name="kind" id="kind">أنثى<br>
-                <input type="submit">
+                <input type="radio" class="chosse" name="kind"><p>ذكر</p>
+                <input type="radio" class="chosse" name="kind"><p>أنثى</p>
+                <input type="submit" class="submit" value="إرسال">
             </form>
         </div>
+
     </main>
 
-    <footer>
+    <footer class="footer">
+        
         <h2>التواصل</h2>
         <p>البريد الإكتروني: <p id="email">between.generations1@gmail.com</p></p>
         <br>
-        <p>رقم التواصل: <p id="number">+966 51 065 6542</p></p>
+        <p>رقم التواصل: <p id="number">966510656542</p></p>
         <br>
-        <p>حسابنا على الأنستقرام <p id="instagram">@between.generations_</p></p>
+        <p>حسابنا على الأنستقرام :<a href="https://www.instagram.com/between.generations_/" id="instagram">between.generations_</a></p>
+        
+        
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
