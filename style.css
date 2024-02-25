@@ -14,7 +14,7 @@ a {
     font-weight: bold;
 }
 a:hover {
-    color: white;
+    color: #38b6ff;
 }
 header {
     margin: 50px auto;
@@ -35,6 +35,20 @@ header h1 {
 header span {
     font-size: 50px;
     display: flex;
+}
+
+.description, .invite, .footer {
+    font-size: 20px;
+}
+
+.description span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#ps {
+    font-size: 17px;
+    font-weight: bold;
 }
 
 button {
@@ -81,3 +95,23 @@ form p {
     display: block;
     margin: 20px;
 }
+
+
+
+@media screen and (max-width:600px) {
+    #title {
+        font-size: 55px;
+    }
+    #title span {
+        font-size: 40px;
+    }
+    #logo {
+        height: 180px;
+    }
+    .description p, .invite p {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+}
+
+
